@@ -13,6 +13,7 @@ h1 {
 .application {
   border: 2px solid #fca3cc;
   padding: 20px;
+  margin: 0px 200px 0px 200px;
   background-color: #fbbedf;
 }
 
