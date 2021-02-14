@@ -1,4 +1,5 @@
 import React from "react";
+import "./HeadingInApp.css";
 
 export default function HeadingCurrentWeather() {
     return <div>
