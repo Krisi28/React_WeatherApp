@@ -14,7 +14,6 @@ ReactDOM.render(
     <HeadingCurrentWeather />
     <WeatherApp />
     <SearchEngine />
-    <Weather city="Vienna" />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
