@@ -12,7 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Heading />
     <HeadingCurrentWeather />
-    <Weather />
+    <WeatherApp />
     <SearchEngine />
     <Weather city="Vienna" />
     <Footer />
