@@ -62,6 +62,7 @@ footer {
 #search-form {
   text-align: center;
 }
+
 #current-location-button {
   background-color: #fca3cc;
   color: white;
@@ -95,7 +96,7 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   list-style-type: none;
-  font-style: bold;
+  font-weight: 200;
 }
 
 #current-time {
