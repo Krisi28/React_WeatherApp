@@ -11,8 +11,8 @@ import HeadingCurrentWeather from "./HeadingsInApp.js"
 ReactDOM.render(
   <React.StrictMode>
     <Heading />
-    <SearchEngine />
     <HeadingCurrentWeather />
+    <SearchEngine />
     <Weather city="Vienna" />
     <Footer />
   </React.StrictMode>,
