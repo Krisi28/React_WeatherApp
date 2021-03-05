@@ -65,6 +65,3 @@ export default function SearchEngine() {
   }
 }
 
-export default function onLoad () {
-  city = "Vienna";
-}

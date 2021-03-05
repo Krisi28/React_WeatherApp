@@ -11,7 +11,6 @@ ReactDOM.render(
   <React.StrictMode>
     <Heading />
     <HeadingCurrentWeather />
-    <onLoad />
     <SearchEngine />
     <Footer />
   </React.StrictMode>,
