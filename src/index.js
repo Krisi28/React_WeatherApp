@@ -11,7 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Heading />
     <HeadingCurrentWeather />
-    <SearchEngine />
+    <SearchEngine city="Vienna"/>
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
