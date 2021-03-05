@@ -52,7 +52,7 @@ export default function SearchEngine() {
           <h2>The current weather is:</h2>
           <br />
           <ul>
-            <li>FormattedDate Date={weather.Date}</li>
+            <li>FormattedDate={weather.Date}</li>
             <li>Temperature: {Math.round(weather.Temperature)}°C</li>
             <li>Description: {weather.Condition}</li>
             <li>Humidity: {weather.Humidity}%</li>
