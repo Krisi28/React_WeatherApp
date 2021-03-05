@@ -49,7 +49,6 @@ export default function SearchEngine() {
           <h2>The current weather is:</h2>
           <br />
           <ul>
-            <li>{city}</li>
             <li>Temperature: {Math.round(weather.Temperature)}°C</li>
             <li>Description: {weather.Condition}</li>
             <li>Humidity: {weather.Humidity}%</li>
@@ -64,4 +63,8 @@ export default function SearchEngine() {
   } else {
     return form;
   }
+}
+
+export default function onLoad () {
+  city = "Vienna";
 }
