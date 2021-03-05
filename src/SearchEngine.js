@@ -46,9 +46,10 @@ export default function SearchEngine() {
       <div className="container">
         <div className="application">
           <div>{form}</div>
-          <h2>The current weather in {city} is:</h2>
+          <h2>The current weather is:</h2>
           <br />
           <ul>
+            <li>{city}</li>
             <li>Temperature: {Math.round(weather.Temperature)}°C</li>
             <li>Description: {weather.Condition}</li>
             <li>Humidity: {weather.Humidity}%</li>
