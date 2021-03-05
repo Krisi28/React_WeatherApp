@@ -18,6 +18,8 @@ export default function SearchEngine() {
     });
   }
 
+  city = "Vienna";
+
   function handleSubmit(event) {
     event.preventDefault();
     let apiKey = "5d69d77efd19c056bafcabc326753fce";
