@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherTemperature from "./WeatherTemperature";
-import "Result.css";
+import "./Result.css";
 
 
 export default function SearchEngine() {
