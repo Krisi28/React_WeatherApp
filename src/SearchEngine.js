@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherTemperature from "./WeatherTemperature";
 
 
 export default function SearchEngine() {
@@ -53,7 +54,7 @@ export default function SearchEngine() {
           <br />
           <ul>
             <li><FormattedDate date={weather.date} /></li>
-            <li>Temperature: {Math.round(weather.Temperature)}°C</li>
+            <li><WeatherTemperature celsius={props.data.Temperature} /></li>
             <li>Description: {weather.Condition}</li>
             <li>Humidity: {weather.Humidity}%</li>
             <li>Wind: {Math.round(weather.Wind)}km/h</li>
